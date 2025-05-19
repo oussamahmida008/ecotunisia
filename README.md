@@ -1,6 +1,6 @@
 # EcoTunisia (EcoExplorer)
 
-![EcoTunisia Logo](app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+
 
 ## Overview
 
@@ -70,12 +70,7 @@ EcoTunisia (EcoExplorer) is a comprehensive Android application designed to prom
 - Resource files for both French and English
 - Localized content throughout the app
 
-## Setup Instructions
 
-1. Clone the repository
-2. Open the project in Android Studio
-3. Connect to Firebase using the provided google-services.json
-4. Build and run the application on an emulator or physical device
 
 ## Requirements
 
@@ -90,26 +85,16 @@ EcoTunisia (EcoExplorer) is a comprehensive Android application designed to prom
 ## Firebase Configuration
 The app uses Firebase for authentication, real-time database, and storage. The configuration is included in the google-services.json file.
 
-## Future Enhancements
 
-- Environmental news feed
-- Carbon footprint calculator
-- Volunteer event organization
-- Gamification elements for environmental actions
-- Integration with environmental NGOs in Tunisia
 
 ## Contributors
 
 This project was developed by:
 
-- **Oussama Hmida** - Lead Developer
-- **Saad Arafet Mahfoudh** - UI/UX Design & Backend Integration
-- **Samar Jellasi** - Content & Environmental Research
+- **Oussama Hmida** 
+- **Saad Arafet Mahfoudh** 
+- **Samar Jellasi** 
 
-## License
 
-This project is licensed for educational purposes only.
-
----
 
 For questions, feedback, or contributions, please contact: [oussamahmida008@gmail.com](mailto:oussamahmida008@gmail.com)
