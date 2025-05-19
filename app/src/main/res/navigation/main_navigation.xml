@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/weatherFragment">
+
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="com.oussama.weatherapp.ui.weather.WeatherFragment"
+        android:label="@string/nav_weather"
+        tools:layout="@layout/fragment_weather" />
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.oussama.weatherapp.ui.map.MapFragment"
+        android:label="@string/nav_map"
+        tools:layout="@layout/fragment_map">
+        <action
+            android:id="@+id/action_mapFragment_to_addLocationFragment"
+            app:destination="@id/addLocationFragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_locationDetailFragment"
+            app:destination="@id/locationDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.oussama.weatherapp.ui.chat.ChatFragment"
+        android:label="@string/nav_chat"
+        tools:layout="@layout/fragment_chat">
+        <action
+            android:id="@+id/action_chatFragment_to_createChannelFragment"
+            app:destination="@id/createChannelFragment" />
+        <action
+            android:id="@+id/action_chatFragment_to_channelDetailFragment"
+            app:destination="@id/channelDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.oussama.weatherapp.ui.profile.ProfileFragment"
+        android:label="@string/nav_profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addLocationFragment"
+        android:name="com.oussama.weatherapp.ui.map.AddLocationFragment"
+        android:label="@string/add_location"
+        tools:layout="@layout/fragment_add_location" />
+
+    <fragment
+        android:id="@+id/locationDetailFragment"
+        android:name="com.oussama.weatherapp.ui.map.LocationDetailFragment"
+        android:label="@string/location_title"
+        tools:layout="@layout/fragment_location_detail">
+        <argument
+            android:name="locationId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/createChannelFragment"
+        android:name="com.oussama.weatherapp.ui.chat.CreateChannelFragment"
+        android:label="@string/create_channel"
+        tools:layout="@layout/fragment_create_channel" />
+
+    <fragment
+        android:id="@+id/channelDetailFragment"
+        android:name="com.oussama.weatherapp.ui.chat.ChannelDetailFragment"
+        android:label="@string/channel_name"
+        tools:layout="@layout/fragment_channel_detail">
+        <argument
+            android:name="channelId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.oussama.weatherapp.ui.profile.EditProfileFragment"
+        android:label="@string/edit_profile"
+        tools:layout="@layout/fragment_edit_profile" />
+
+</navigation>

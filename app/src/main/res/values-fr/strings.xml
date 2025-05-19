@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">EcoExplorer</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="nav_weather">Météo</string>
+    <string name="nav_map">Carte</string>
+    <string name="nav_chat">Discussion</string>
+    <string name="nav_profile">Profil</string>
+    
+    <!-- Auth -->
+    <string name="login">Connexion</string>
+    <string name="register">Inscription</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="confirm_password">Confirmer le mot de passe</string>
+    <string name="forgot_password">Mot de passe oublié?</string>
+    <string name="name">Nom</string>
+    <string name="create_account">Créer un compte</string>
+    <string name="already_have_account">Vous avez déjà un compte? Connectez-vous</string>
+    <string name="dont_have_account">Vous n\'avez pas de compte? Inscrivez-vous</string>
+    
+    <!-- Weather -->
+    <string name="temperature">Température</string>
+    <string name="humidity">Humidité</string>
+    <string name="wind">Vent</string>
+    <string name="feels_like">Ressenti</string>
+    <string name="weather_condition">Condition</string>
+    <string name="city">Ville</string>
+    
+    <!-- Map -->
+    <string name="add_location">Ajouter un lieu</string>
+    <string name="location_title">Titre du lieu</string>
+    <string name="location_description">Description</string>
+    <string name="save_location">Enregistrer le lieu</string>
+    <string name="my_locations">Mes lieux</string>
+    <string name="all_locations">Tous les lieux</string>
+    
+    <!-- Chat -->
+    <string name="channels">Canaux</string>
+    <string name="create_channel">Créer un canal</string>
+    <string name="join_channel">Rejoindre un canal</string>
+    <string name="channel_name">Nom du canal</string>
+    <string name="channel_description">Description du canal</string>
+    <string name="send">Envoyer</string>
+    <string name="message_hint">Tapez un message…</string>
+    <string name="share_location">Partager la position</string>
+    
+    <!-- Profile -->
+    <string name="edit_profile">Modifier le profil</string>
+    <string name="logout">Déconnexion</string>
+    <string name="change_language">Changer de langue</string>
+    <string name="dark_mode">Mode sombre</string>
+    <string name="settings">Paramètres</string>
+    <string name="about">À propos</string>
+    <string name="save_changes">Enregistrer les modifications</string>
+    <string name="language">Langue</string>
+    <string name="english">Anglais</string>
+    <string name="french">Français</string>
+    
+    <!-- Dialogs and Messages -->
+    <string name="error_occurred">Une erreur s\'est produite</string>
+    <string name="success">Succès</string>
+    <string name="please_wait">Veuillez patienter…</string>
+    <string name="permission_required">Permission requise</string>
+    <string name="permission_rationale">Cette permission est nécessaire pour le bon fonctionnement de l\'application.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    
+    <!-- Actions -->
+    <string name="call">Appeler</string>
+    <string name="sms">SMS</string>
+    <string name="take_photo">Prendre une photo</string>
+    <string name="search_google">Rechercher sur Google</string>
+</resources>

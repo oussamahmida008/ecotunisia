@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">EcoExplorer</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_weather">Weather</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_chat">Chat</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="name">Name</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="dont_have_account">Don\'t have an account? Register</string>
+
+    <!-- Weather -->
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind">Wind</string>
+    <string name="feels_like">Feels like</string>
+    <string name="weather_condition">Condition</string>
+    <string name="city">City</string>
+
+    <!-- Map -->
+    <string name="add_location">Add Location</string>
+    <string name="location_title">Location Title</string>
+    <string name="location_description">Description</string>
+    <string name="save_location">Save Location</string>
+    <string name="my_locations">My Locations</string>
+    <string name="all_locations">All Locations</string>
+    <string name="location_details">Location Details</string>
+    <string name="copy_location">Copy Location</string>
+    <string name="location_copied">Location details copied to clipboard</string>
+    <string name="location_image">Location image</string>
+    <string name="added_by">Added by: %s</string>
+    <string name="added_on">Added on: %s</string>
+    <string name="coordinates">Coordinates: %1$.6f, %2$.6f</string>
+    <string name="add_eco_locations">Add Eco Locations</string>
+    <string name="add_eco_locations_description">Add predefined eco-friendly locations in Tunisia</string>
+    <string name="my_location">My Location</string>
+    <string name="center_on_tunisia">Center on Tunisia</string>
+
+    <!-- Chat -->
+    <string name="channels">Channels</string>
+    <string name="create_channel">Create Channel</string>
+    <string name="join_channel">Join Channel</string>
+    <string name="channel_name">Channel Name</string>
+    <string name="channel_description">Channel Description</string>
+    <string name="send">Send</string>
+    <string name="message_hint">Type a message…</string>
+    <string name="share_location">Share Location</string>
+    <string name="channel_created_successfully">Channel created successfully</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="no_messages">No messages yet. Be the first to send a message!</string>
+    <string name="setting_up_chat">Setting up the chat system...\nThis only happens once.</string>
+
+    <!-- Image Handling -->
+    <string name="add_image">Add Image</string>
+    <string name="take_photo_option">Take Photo</string>
+    <string name="choose_gallery_option">Choose from Gallery</string>
+    <string name="camera_permission_required">Camera Permission Required</string>
+    <string name="camera_permission_rationale">This app needs camera access to take photos for sharing in chat.</string>
+    <string name="storage_permission_required">Storage Permission Required</string>
+    <string name="storage_permission_rationale">This app needs storage access to select images for sharing in chat.</string>
+    <string name="error_creating_image_file">Error creating image file</string>
+    <string name="image_upload_failed">Failed to upload image: %1$s</string>
+    <string name="image_message_text">📷 Image</string>
+    <string name="waiting_for_location">Waiting for location…</string>
+    <string name="could_not_center_location">Could not center on your location</string>
+
+    <!-- Phone Number Handling -->
+    <string name="phone_number">Phone Number</string>
+    <string name="call">Call</string>
+    <string name="message">Message</string>
+    <string name="no_app_for_call">No Phone App Available</string>
+    <string name="no_app_for_sms">No Messaging App Available</string>
+    <string name="error_dialing">Error dialing phone number</string>
+    <string name="error_messaging">Error sending message to phone number</string>
+    <string name="no_dialer_app_message">Your device doesn\'t have a phone app installed to make calls to %1$s. You can copy the number to use it elsewhere.</string>
+    <string name="no_sms_app_message">Your device doesn\'t have a messaging app installed to send SMS to %1$s. You can copy the number to use it elsewhere.</string>
+    <string name="copy_number">Copy Number</string>
+    <string name="number_copied_to_clipboard">Phone number copied to clipboard</string>
+
+    <!-- Profile -->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="logout">Logout</string>
+    <string name="profile_updated">Profile updated successfully</string>
+    <string name="error_uploading_image">Error uploading image</string>
+    <string name="error_not_logged_in">You must be logged in to update your profile</string>
+    <string name="change_language">Change Language</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+
+    <!-- Dialogs and Messages -->
+    <string name="error_occurred">An error occurred</string>
+    <string name="success">Success</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="permission_rationale">This permission is needed for the app to function properly.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="retry">Retry</string>
+    <string name="retrying_load_messages">Retrying to load messages (Attempt %1$d of %2$d)…</string>
+    <string name="index_being_created">Setting up the chat system. This may take a moment.</string>
+
+    <!-- Location Permissions -->
+    <string name="location_permission_title">Location Permission</string>
+    <string name="location_permission_rationale">Location permission is needed to show your current position on the map and discover nearby environmental points of interest.</string>
+    <string name="location_permission_denied_title">Permission Denied</string>
+    <string name="location_permission_denied_message">You have denied the location permission. Without this permission, you won\'t be able to see your current location on the map. You can grant this permission in the app settings.</string>
+    <string name="location_permission_permanently_denied">Location permission has been permanently denied. Please enable it in the app settings to use this feature.</string>
+    <string name="location_settings_title">Location Settings</string>
+    <string name="location_settings_message">Your location settings are not enabled. Please enable them to use this feature.</string>
+    <string name="enable_location">Enable Location</string>
+    <string name="location_required">Location Required</string>
+    <string name="precise_location_recommended">Precise location is recommended for better accuracy.</string>
+    <string name="open_settings">Settings</string>
+
+    <!-- Firebase Error Messages -->
+    <string name="error_weak_password">Password is too weak. Please use at least 6 characters.</string>
+    <string name="error_invalid_credentials">Invalid email or password.</string>
+    <string name="error_user_not_found">User not found. Please check your email or register.</string>
+    <string name="error_email_already_in_use">Email is already in use. Please use a different email or login.</string>
+    <string name="error_network">Network error. Please check your internet connection.</string>
+    <string name="error_unknown">An unknown error occurred. Please try again later.</string>
+    <string name="error_google_play_services">Google Play Services is required for this app.</string>
+    <string name="error_recaptcha">reCAPTCHA verification failed. Please try again later.</string>
+    <string name="error_index_required">The system is setting up the database index. This may take a few minutes. Please try again shortly.</string>
+    <string name="setting_up_database">Setting up database…</string>
+
+    <!-- Actions -->
+    <string name="sms">SMS</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="search_google">Search on Google</string>
+    <string name="back">Back</string>
+    <string name="cancel_operation">Cancel</string>
+
+    <!-- Discard Changes Dialog -->
+    <string name="discard_changes_title">Discard Changes</string>
+    <string name="discard_changes_message">You have unsaved changes. Are you sure you want to discard them?</string>
+    <string name="discard">Discard</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margin and padding -->
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_xlarge">24dp</dimen>
+    <dimen name="margin_xxlarge">32dp</dimen>
+    
+    <!-- Text sizes -->
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_xlarge">20sp</dimen>
+    <dimen name="text_size_xxlarge">24sp</dimen>
+    <dimen name="text_size_title">18sp</dimen>
+    <dimen name="text_size_headline">22sp</dimen>
+    
+    <!-- Elevation -->
+    <dimen name="elevation_card">4dp</dimen>
+    <dimen name="elevation_fab">6dp</dimen>
+    <dimen name="elevation_appbar">4dp</dimen>
+    
+    <!-- Component specific -->
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="input_field_height">56dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="weather_card_height">120dp</dimen>
+    <dimen name="weather_icon_size">48dp</dimen>
+    <dimen name="bottom_nav_height">56dp</dimen>
+    <dimen name="map_height">300dp</dimen>
+</resources>
